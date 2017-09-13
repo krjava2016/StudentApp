@@ -63,8 +63,7 @@ public class MainApp extends Application {
         studentData.add(new Student("Anna More", "Baty"));
         
         
-        
-      
+              
     }
 
 
@@ -86,7 +85,7 @@ public void sendEmail() throws IOException {
 	
     	  if(student.getBirthday().getDayOfMonth() -1 == MonthDay.now().getDayOfMonth() && student.getBirthday().getMonthValue() == MonthDay.now().getMonthValue()){
          	  
-     		 Email.sendEmail("viktoriaryan3@gmail.com","Biorhtday Reminder","Dear Viktoria tommorow is "+student.getStudentName()+ " birthday"  ,"viktoriaryan3@gmail.com","viktoriaryan3@gmail.com","karenvika13");
+     		 Email.sendEmail("your@gmail.com","Birhtday Reminder","Dear Viktoria tommorow is "+student.getStudentName()+ " birthday"  ,"your@gmail.com","your@gmail.com","pass");
      		 oldTime.setTimeTxt();
        }
 		
@@ -100,9 +99,7 @@ public void sendEmailNotification() {
 		
 	//for( Student student : studentData){
 		
-		//System.out.println(student.getEmail());
-		  
- 		 //Email.sendEmail(student.getEmail(),"Reminder", "" ,"krjava2016@gmail.com","krjava2016@gmail.com","23Google75");
+		//System.out.println(student.getEmail());;
        }
 
 
