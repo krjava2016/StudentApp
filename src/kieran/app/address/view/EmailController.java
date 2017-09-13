@@ -52,7 +52,7 @@ public class EmailController {
 	   for( Student student : mainApp.getStudentData()){
    		
    		
-		 Email.sendEmail(student.getEmail(),header, text ,"viktoriaryan3@gmail.com","viktoriaryan3@gmail.com","karenvika13");
+		 Email.sendEmail(student.getEmail(),header, text ,"your@gmail.com","your@gmail.com","pass");
 
 	   }
 	   
